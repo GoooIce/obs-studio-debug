@@ -12,7 +12,7 @@ if("${CMAKE_BINARY_DIR}" STREQUAL "${CMAKE_SOURCE_DIR}")
       "remove CMakeCache.txt and CMakeFiles.")
 endif()
 
-project(obs-studio VERSION ${OBS_VERSION_CANONICAL})
+project(obs-studio VERSION 28.0.1)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 # Use target folders for MSVC/Xcode/etc.
